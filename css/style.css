@@ -1,0 +1,417 @@
+
+html {font-size: 16px;}
+body {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    border: none;
+    background-color: #fbfbfb;
+    font-family:'Song Myung',serif !important;
+
+}
+
+#header {
+    width: 100%;
+    height: 665px;
+    background-color: #fff;
+    position: relative;
+border-bottom: 1px solid rgba(0,0,0,0.02);
+padding-top: 100px;
+}
+
+.personalPhoto {
+    display: block;
+    margin: 0 auto 0;
+    width: 184px;
+    height: 251px;
+border-top-right-radius: 400px;
+
+    background-color: #fff;
+    box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+
+#header h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #484848;
+    line-height: 1.8;
+    padding: 0;
+    margin: 0;
+    font-size: 2.1rem;
+
+}
+
+#header h2 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #8a1113;
+    font-size: 1.7rem;
+
+
+}
+#header p {
+
+    padding-top: 7px;
+    width: 75%;
+    margin: 10px auto 0;
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 300;
+    color: #484848
+}
+#header .social {
+    display: block;
+    margin: 20px auto 0;
+    width: 160px;
+}
+#header .social li {
+    list-style: none;
+    display: inline;
+    margin: 0 5px;
+    font-size: 1.2rem;
+
+}
+#header .social li a {
+    color: #484848;
+}
+#header .social li a:hover {
+    text-decoration: none;
+    color: blue
+}
+
+
+#experinceWrap {
+width: 100%;
+background-image: linear-gradient(to right, #8c241c 0%, #ea605d 100%);
+
+}
+#experince {width: 100%;
+padding: 60px 0;
+overflow: hidden;
+}
+
+#experince h2 {color: #fff; text-transform: capitalize;
+font-weight: 300;
+margin-bottom: 25px;
+position: relative;
+}
+#experince h2::after {
+    content:"";
+    display:block;
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    height: 2px;
+    background-color: rgba(255,255,255,0.5);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.workItem {
+    width: 55%;
+    position: relative;
+    margin: 0 auto 30px;
+    overflow: hidden;
+
+}
+#experince .workItem:last-child {margin-bottom: 0;}
+.workItem .count {
+    color: #fff;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    font-size: 3rem;
+    z-index: 2;
+    color: rgba(255,255,255,0.5)
+}
+
+.workItem h3 {padding: 10px 0; margin: 0;
+color:#fff; text-transform: capitalize;
+font-size: 1.5rem;
+}
+
+span.location {
+display: inline-block;
+width: 100px;
+color: #484848;
+background-color: #fff;
+box-shadow: 0 0 5px rgba(0,0,0,0.2);
+text-align: center;
+vertical-align: middle;
+padding: 3px 0;
+font-weight: 400;
+
+}
+span.type {
+display: inline-block;
+width: 70px;
+color: #484848;
+background-color: #fff;
+box-shadow: 0 0 5px rgba(0,0,0,0.2);
+text-align: center;
+vertical-align: middle;
+padding: 3px 0;
+}
+
+
+span.date {
+display: inline-block;
+width: 170px;
+color: #fff;
+border:1px solid #fff;
+box-shadow: 0 0 5px rgba(0,0,0,0.2);
+text-align: center;
+vertical-align: middle;
+padding: 3px 3px;
+text-transform: capitalize;
+
+}
+span.company {display: inline-block;
+width: 100px;
+color: #fff;
+border:1px solid #fff;
+
+box-shadow: 0 0 5px rgba(0,0,0,0.2);
+text-align: center;
+vertical-align: middle;
+padding: 3px 0;
+text-transform: uppercase;
+
+
+}
+.dutes {padding: 0; margin: 0; width: 94%;
+padding-left: 6%;
+}
+.dutes li {
+    color: #fff;
+    list-style: none;
+    line-height: 1.8;
+    font-size: 1rem;
+    border-left:2px solid #fff;
+    padding-left: 10px;
+    margin-bottom: 8px;
+
+}
+
+#portfolioWrap {
+    width: 100%;
+    background-color: #fff;
+    padding: 60px 0;
+    overflow: hidden;
+}
+#portfolio h2 {
+color: #484848;
+    text-transform: capitalize;
+    font-weight: 300;
+    position: relative;
+    padding: 0;
+    margin: 0;
+
+}
+
+#portfolio h2  .svg-inline--fa {vertical-align: middle;
+color: #8c241c
+}
+
+span.desc {
+font-size: 0.98rem;
+text-transform: capitalize;
+color: #7d7d7d;
+padding: 10px 0 20px 45px;
+display: inline-block;
+
+}
+
+#list {width: 100%; margin: 0 auto; padding: 30px 0; }
+#list  li {list-style: none;
+display: block;
+position: relative;
+float: left;
+width: calc(90%/4);
+margin-right: calc(10%/4);
+outline: none;
+}
+.overlayPhoto {
+
+}
+
+#list  li img {}
+#list  li h3 {font-size: 1.1rem; text-transform: capitalize;
+    color: #8a1113;
+
+}
+.meta {width: 100%; padding: 2px 0;
+    display: flex;
+    flex-direction: row;
+   justify-content:flex-start;
+    align-content:center;
+}
+.meta span {
+display: inline-block;
+padding: 2px 5px;
+
+margin: 5px 5px 0 0;
+font-weight: 500;
+border:2px solid #ccc;
+
+
+}
+
+span.url a {color: #8a1113}
+span.url a:hover {color: #000; text-decoration: none; outline: none;}
+
+span.url{
+background-color: #fff;
+color: #8a1113;
+display: inline-block;
+padding: 4px 10px;
+border: none;
+margin: 5px 5px 0 0;
+position: absolute;
+top: 37px;
+left: 12px;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+text-transform: uppercase;
+}
+
+
+
+
+
+#stickyNav {width: 12.5%;
+background-color: #484848;
+position: fixed;
+top: 0;
+left: 0;
+margin: 0 auto;
+z-index: 6;
+height: 200px;
+box-shadow: 0 0 25px rgba(0,0,0,0.2);
+}
+#stickyNav ul {padding: 0; margin: 0;
+
+}
+#stickyNav ul li {color: #fff; list-style: none; }
+#stickyNav ul li a {color: #fff; display: block; border-bottom: 1px solid rgba(255,255,255,0.1);
+width: calc( 100%/1); height: 50px; text-align: center;
+line-height: 50px; text-transform: capitalize; float: left;
+box-shadow: 0 0 5px rgba(0,0,0,0.2); position: relative;
+}
+#stickyNav ul li a:hover {text-decoration: none;
+background-color: #fff; color: #484848;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#stickyNav ul li a > .svg-inline--fa {color:#ccc; vertical-align: middle;
+position: absolute;
+display: inline-block;
+top: 40%; left: 10%;
+}
+
+#stickyNav ul li a:hover > .svg-inline--fa {color: #8c241c}
+
+a.noneLink {
+    pointer-events: none
+}
+
+#contactWrap {width: 100%;
+background-color: #fbfbfb;
+
+}
+#contact {
+width: 100%;
+   width: 100%;
+   height: 200px;
+   overflow: hidden;
+   padding: 60px 0;
+}
+#contact h3 {text-transform: capitalize; padding: 0 0 20px;}
+#contact ul {padding: 0; margin: 0;
+display: flex;
+margin: auto
+}
+#contact ul li {list-style: none; padding: 0 10px; }
+#contact ul li a {color: blue}
+#contact ul li a:hover {text-decoration: none;}
+#footer {background-color: #f1f1f1; width: 100%; height: 50px;
+position: relative;
+ overflow: hidden;
+}
+#footer p {text-align: left; line-height: 50px;}
+#footer a#Upper {display: block;
+width: 30px; height: 30px; position: absolute;
+top: 10px; right: 0; left: 0; border:1px solid #000; margin: 0 auto; text-align: center;
+line-height: 30px;
+}
+
+#resumeWrap {width: 100%;
+background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
+}
+   #resume {width: 100%;
+padding: 30px 0;
+   }
+      #resume h2 {text-align: center; text-transform: capitalize;
+font-size: 1.7rem;
+      }
+         #resume h2 a {color: #fff;}
+
+
+@media screen and (max-width:767px) {
+   html {font-size: 14px;}
+   body {padding-top: 100px;}
+   #header {
+      height: auto;
+      padding-bottom: 60px;
+   }
+   #header h1 {font-size: 2rem;}
+   #stickyNav {width: 100%; height: 100px;}
+   #stickyNav ul li {width: 50%;
+float: left;
+   }
+
+   #header h2 {font-size: 1rem;}
+   #header .social {width: 150px;}
+#experince h2 {text-align: center;}
+   #experince h2::after, .workItem  span.location, .workItem span.company  { display: none;}
+   .workItem {
+      width: 98%;
+   }
+   .workItem span.date {width: 150px;}
+.workItem h3 {font-size: 1.3rem;}
+.slick-dots {width:120px;}
+
+a.overlayPhoto  {width: 100% !important;}
+.slick-slide img {width: 100% !important; max-width: 100%;}
+#list li {
+margin-right: 0;
+
+}
+.slick-dots {bottom: 0;}
+#portfolioWrap {padding-bottom: 30px;}
+.slick-dots li {width: 14px;
+height: 14px;}
+.slick-dots li button {
+   width: 14px;
+   height: 14px;
+   border-radius: 14px;
+
+}
+#contact {height: auto;}
+#contact ul {
+   flex-direction: column;
+}
+#contact ul li {
+   margin-bottom: 7px;
+}
+
+#footer a#Upper {
+right: 15px;
+left: auto;
+
+}
+
+
+}
