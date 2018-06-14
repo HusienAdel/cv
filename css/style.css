@@ -45,7 +45,7 @@ border-top-right-radius: 400px;
 #header h2 {
     text-align: center;
     text-transform: capitalize;
-    color: #8a1113;
+    color: #546ef7;
     font-size: 1.7rem;
 
 
@@ -86,8 +86,9 @@ border-top-right-radius: 400px;
 
 #experinceWrap {
 width: 100%;
-background-image: -webkit-gradient(linear, left top, right top, from(#8c241c), to(#ea605d));
-background-image: linear-gradient(to right, #8c241c 0%, #ea605d 100%);
+background: #ccc url('../img/experince-bg.jpg') top center no-repeat;
+background-size: cover !important;
+
 
 }
 #experince {width: 100%;
@@ -221,7 +222,7 @@ color: #484848;
 }
 
 #portfolio h2  .svg-inline--fa {vertical-align: middle;
-color: #8c241c
+color: #539cd1
 }
 
 span.desc {
@@ -248,7 +249,7 @@ outline: none;
 
 #list  li img {}
 #list  li h3 {font-size: 1.1rem; text-transform: capitalize;
-    color: #8a1113;
+    color: #546ef7;
 
 }
 .meta {width: 100%; padding: 2px 0;
@@ -276,12 +277,12 @@ border:2px solid #ccc;
 
 }
 
-span.url a {color: #8a1113}
+span.url a {color: #546ef7}
 span.url a:hover {color: #000; text-decoration: none; outline: none;}
 
 span.url{
 background-color: #fff;
-color: #8a1113;
+color: #546ef7;
 display: inline-block;
 padding: 4px 10px;
 border: none;
@@ -305,7 +306,7 @@ top: 0;
 left: 0;
 margin: 0 auto;
 z-index: 6;
-height: 200px;
+height: 250px;
 -webkit-box-shadow: 0 0 25px rgba(0,0,0,0.2);
         box-shadow: 0 0 25px rgba(0,0,0,0.2);
 }
@@ -331,7 +332,7 @@ display: inline-block;
 top: 40%; left: 10%;
 }
 
-#stickyNav ul li a:hover > .svg-inline--fa {color: #8c241c}
+#stickyNav ul li a:hover > .svg-inline--fa {color: #1c82cc}
 
 a.noneLink {
     pointer-events: none
@@ -369,18 +370,91 @@ top: 10px; right: 0; left: 0; border:1px solid #000; margin: 0 auto; text-align:
 line-height: 30px;
 }
 
-#resumeWrap {width: 100%;
-background-image: -webkit-gradient(linear, left top, right top, from(#868f96), to(#596164));
-background-image: linear-gradient(to right, #868f96 0%, #596164 100%);
-}
-   #resume {width: 100%;
-padding: 30px 0;
-   }
-      #resume h2 {text-align: center; text-transform: capitalize;
+
+
+
+      #skillsWrap h2 {text-align: left; text-transform: capitalize;
 font-size: 1.7rem;
       }
-         #resume h2 a {color: #fff;}
+         #skillsWrap h2 a {color: #484848;}
 
+
+#skillsWrap {width: 100%;
+background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+
+ overflow: hidden;
+padding: 60px 0;
+}
+      #skillsWrap h2 {color: #fff; margin-bottom: 35px;
+text-shadow: 0 0px 6px rgba(0,0,0,0.2); text-align: center;
+      }
+            .skillsBox  {padding: 0; margin: 0;
+width: 96%;
+
+overflow: hidden;
+
+            }
+               .skillsBox  li {list-style: none;
+                  width: 50%;
+                  float: left;
+                  display: block;
+
+                  height: 50px;
+                  text-align: left;
+                  color: #000;
+                  text-shadow: 0 1px 0 #fff;
+
+                  line-height: 50px;
+                  font-size: 3rem;
+                  margin-bottom: 40px;
+position: relative;
+text-align: center;
+
+               }
+                  .skillsBox li ..svg-inline--fa { vertical-align: middle;
+
+                  }
+
+               .skillsBox  li h4 {
+                  display: block;
+                  vertical-align: middle;
+                  line-height: 22px;
+                  color: #000;
+                  text-shadow: 0 1px 0 #fff;
+                  font-size: 1.1rem;
+                  text-align: center;
+                  text-transform: capitalize;
+                  width: 100%;
+
+
+
+
+               }
+
+#downloadCV {width: 100%; overflow: hidden;}
+.cvThum {width: 226px; height: 347px;
+display: block; margin: 0 auto;
+}
+#downloadCV h3 {padding: 0; margin: 0;    font-size: 1.3rem;}
+#downloadCV h3 a {
+   color: #fff; text-align: center;
+width: 94%;
+   padding: 15px 15px;
+   border-radius: 100px;
+   display: block;
+   margin: 15px auto;
+   background-color: rgba(0,0,0,0.6);
+text-transform: capitalize;
+   -webkit-transition: All .3s;
+   transition: All .3s;
+}
+
+#downloadCV h3 a:hover {
+   width: 100%;
+   text-decoration: none;
+
+
+}
 
 @media screen and (max-width:767px) {
    html {font-size: 14px;}
@@ -390,10 +464,11 @@ font-size: 1.7rem;
       padding-bottom: 60px;
    }
    #header h1 {font-size: 2rem;}
-   #stickyNav {width: 100%; height: 100px;}
+   #stickyNav {width: 100%; height: 150px;}
    #stickyNav ul li {width: 50%;
 float: left;
    }
+      #stickyNav ul li:last-child {width: 100%;}
 
    #header h2 {font-size: 1rem;}
    #header .social {width: 150px;}
